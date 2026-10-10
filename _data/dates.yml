@@ -1,0 +1,15 @@
+# Submission cycles shown on the home page. Add or edit rows here.
+- cycle: First submission — Winter cycle
+  deadlines:
+    - event: Paper abstract registration
+      date: November 11, 2026
+    - event: Full paper submission
+      date: December 4, 2026
+      note: firm deadline
+- cycle: Second submission — Summer cycle
+  deadlines:
+    - event: Paper abstract registration
+      date: May 28, 2027
+    - event: Full paper submission
+      date: June 4, 2027
+      note: firm deadline

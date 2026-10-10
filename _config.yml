@@ -1,0 +1,19 @@
+# Site-wide settings for the Middleware 2027 website.
+# Most day-to-day edits happen in _data/ (dates, organizers), not here.
+title: Middleware 2027
+edition: 28th ACM/IFIP International Middleware Conference
+dates: December 13–17, 2027
+location: Kyoto, Japan
+description: >-
+  Middleware 2027, the 28th ACM/IFIP International Middleware Conference,
+  will take place in Kyoto, Japan, December 13–17, 2027.
+url: https://middleware-conf.github.io
+baseurl: /2027
+lang: en
+
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

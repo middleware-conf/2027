@@ -1,0 +1,13 @@
+{%- for c in site.data.dates %}
+<h3>{{ c.cycle }}</h3>
+<table class="dates">
+  <tbody>
+    {%- for d in c.deadlines %}
+    <tr>
+      <th scope="row">{{ d.event }}</th>
+      <td>{{ d.date }}{% if d.note %} <span class="note">({{ d.note }})</span>{% endif %}</td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+{%- endfor %}
