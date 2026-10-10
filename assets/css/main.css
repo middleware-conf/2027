@@ -98,6 +98,7 @@ table.dates { width: 100%; border-collapse: collapse; margin: .25rem 0 1rem; }
 table.dates th, table.dates td { text-align: left; padding: .55rem .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
 table.dates th { font-weight: 500; width: 55%; }
 table.dates td { font-variant-numeric: tabular-nums; font-weight: 600; }
+.submission-site { margin: 0 0 .25rem; font-size: .95rem; }
 .note { font-weight: 400; color: var(--muted); }
 .aside { color: var(--muted); font-size: .92rem; }
 

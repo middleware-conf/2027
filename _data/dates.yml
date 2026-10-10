@@ -1,12 +1,15 @@
 # Submission cycles shown on the home page. Add or edit rows here.
+# `submission_site` is optional; it is linked under the cycle heading.
 - cycle: First submission — Winter cycle
+  submission_site: https://middleware2027r1.hotcrp.com/
   deadlines:
     - event: Paper abstract registration
-      date: November 11, 2026
+      date: November 27, 2026
     - event: Full paper submission
       date: December 4, 2026
       note: firm deadline
 - cycle: Second submission — Summer cycle
+  submission_site: https://middleware2027r2.hotcrp.com/
   deadlines:
     - event: Paper abstract registration
       date: May 28, 2027

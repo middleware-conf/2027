@@ -1,5 +1,8 @@
 {%- for c in site.data.dates %}
 <h3>{{ c.cycle }}</h3>
+{%- if c.submission_site %}
+<p class="submission-site">Submission site: <a href="{{ c.submission_site }}">{{ c.submission_site | split: '://' | last | split: '/' | first }}</a></p>
+{%- endif %}
 <table class="dates">
   <tbody>
     {%- for d in c.deadlines %}
