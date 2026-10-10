@@ -1,5 +1,6 @@
 /* Design tokens. Change --accent and the whole site follows. */
 :root {
+  color-scheme: light dark;
   --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #5f6672;
