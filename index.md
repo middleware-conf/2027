@@ -21,7 +21,7 @@ Middleware 2027 has two submission cycles.
 
 {% include dates_table.html %}
 
-The call for papers will be posted here soon.
+See the [call for papers]({{ "/call-for-papers/" | relative_url }}) for topics, submission guidelines, and policies.
 
 ## Program Committee Co-Chairs
 
