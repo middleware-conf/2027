@@ -83,6 +83,16 @@ h3 { font-size: 1.05rem; margin: 1.75rem 0 .5rem; }
 .hero .kicker { margin: 0; color: var(--muted); font-size: .92rem; text-transform: uppercase; letter-spacing: .06em; }
 .hero .where-when { margin: 0; font-size: 1.2rem; }
 
+/* ---- Notice ---- */
+.notice {
+  margin: 0 0 2rem;
+  padding: .75rem 1rem;
+  border: 1px dashed var(--accent);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
 /* ---- Dates ---- */
 table.dates { width: 100%; border-collapse: collapse; margin: .25rem 0 1rem; }
 table.dates th, table.dates td { text-align: left; padding: .55rem .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }

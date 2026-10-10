@@ -1,6 +1,10 @@
 # Organizing committee. Roles appear in this order; add new roles as needed.
-# `affiliation` is optional.
+# `affiliation` and `url` (personal web page) are optional.
 - role: Program Committee Co-Chairs
   people:
     - name: Klara Nahrstedt
+      affiliation: University of Illinois Urbana-Champaign, USA
+      url: https://monet.cs.illinois.edu/people/klara/
     - name: Etienne Rivière
+      affiliation: UCLouvain, Belgium
+      url: https://cloudlargescale-uclouvain.github.io/Etienne_Riviere
