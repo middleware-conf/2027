@@ -1,5 +1,10 @@
 # Organizing committee. Roles appear in this order; add new roles as needed.
 # `affiliation` and `url` (personal web page) are optional.
+- role: General Chair
+  people:
+    - name: Kazuyuki Shudo
+      affiliation: Kyoto University, Japan
+      url: https://shudo.net/
 - role: Program Committee Co-Chairs
   people:
     - name: Klara Nahrstedt

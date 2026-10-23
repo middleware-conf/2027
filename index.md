@@ -23,6 +23,15 @@ Middleware 2027 has two submission cycles.
 
 See the [call for papers]({{ "/call-for-papers/" | relative_url }}) for topics, submission guidelines, and policies.
 
+## General Chair
+
+{% assign gc = site.data.organizers | where: "role", "General Chair" | first %}
+<ul class="people">
+  {%- for p in gc.people %}
+  <li>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.affiliation %}, <span class="affil">{{ p.affiliation }}</span>{% endif %}</li>
+  {%- endfor %}
+</ul>
+
 ## Program Committee Co-Chairs
 
 {% assign pc = site.data.organizers | where: "role", "Program Committee Co-Chairs" | first %}
