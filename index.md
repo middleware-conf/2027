@@ -40,3 +40,11 @@ See the [call for papers]({{ "/call-for-papers/" | relative_url }}) for topics, 
   <li>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.affiliation %}, <span class="affil">{{ p.affiliation }}</span>{% endif %}</li>
   {%- endfor %}
 </ul>
+
+## Program Committee
+
+<ul class="people">
+  {%- for p in site.data.pc_members %}
+  <li>{{ p.name }}, <span class="affil">{{ p.affiliation }}, {{ p.country }}</span></li>
+  {%- endfor %}
+</ul>
