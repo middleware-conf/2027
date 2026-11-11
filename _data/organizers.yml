@@ -13,3 +13,11 @@
     - name: Etienne Rivière
       affiliation: UCLouvain, Belgium
       url: https://cloudlargescale-uclouvain.github.io/Etienne_Riviere
+- role: Publicity Chairs
+  people:
+    - name: Takahiro Hirofuchi
+      affiliation: National Institute of Advanced Industrial Science and Technology (AIST), Japan
+    - name: Rafael Pires
+      affiliation: EPFL, Switzerland
+    - name: Lishan Yang
+      affiliation: George Mason University, USA

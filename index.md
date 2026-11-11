@@ -41,6 +41,15 @@ See the [call for papers]({{ "/call-for-papers/" | relative_url }}) for topics, 
   {%- endfor %}
 </ul>
 
+## Publicity Chairs
+
+{% assign pub = site.data.organizers | where: "role", "Publicity Chairs" | first %}
+<ul class="people">
+  {%- for p in pub.people %}
+  <li>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.affiliation %}, <span class="affil">{{ p.affiliation }}</span>{% endif %}</li>
+  {%- endfor %}
+</ul>
+
 ## Program Committee
 
 <ul class="people">
