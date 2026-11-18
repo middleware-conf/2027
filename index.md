@@ -7,7 +7,7 @@ layout: default
   <p class="where-when"><strong>{{ site.location }}</strong> · {{ site.dates }}</p>
 </section>
 
-<p class="notice">This website is under construction. More details will be posted soon.</p>
+<p class="notice">This site will be replaced by a more complete site after the Winter submission deadline and the Middleware 2026 conference.</p>
 
 The annual ACM/IFIP Middleware conference is a major forum for discussing
 innovations and recent scientific advances in middleware systems, with a focus
